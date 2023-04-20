@@ -24,7 +24,7 @@ pipeline {
                 echo "the buils number is ${BUILD_NUMBER}"
                 echo "the job name is ${JOB_NAME}"
                 echo "git details ${GIT_BRANCH}"
-                echo "${GIT_AUTHOR_NAME}"
+                
             }
         }
     }
